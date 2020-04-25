@@ -2,9 +2,9 @@
 layout:     post
 title:      Mark & Block Algorithms
 author:     Nader Zare, Omid Amini, Arad Firouzkoohi
-tags: 		defense decision
+tags: 		defense mark block
 subtitle:  	Mark decision and its integrate with Block
-category:   Algorithms
+category:  algorithm
 ---
 <!-- Start Writing Below in Markdown -->
 

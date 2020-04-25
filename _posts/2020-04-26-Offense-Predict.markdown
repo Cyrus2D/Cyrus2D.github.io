@@ -2,9 +2,9 @@
 layout:     post
 title:      Offense Predictor by Deep Neural Network
 author:     Nader Zare, Aref Sayareh
-tags: 		A.I. Research
+tags: 		ai dnn predict
 subtitle:  	A paper by Cyrus Team about an A.I. that predict base on full-state in un-full-state environment
-category:   A.I.
+category:  ai
 ---
 <!-- Start Writing Below in Markdown -->
 
