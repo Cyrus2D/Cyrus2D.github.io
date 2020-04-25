@@ -2,7 +2,7 @@
 
 - name: Nader Zare
   role: Leader
-  img: img/profile-images/23122192.img
+  img: /img/profile-images/23122192.img
   github: naderzare
 #  gplus: https://plus.google.com/+AhmetCecen-GPlus
   bio: A.K.A. NKPO
@@ -11,21 +11,21 @@
    
 - name: Aref Sayareh
   role: Coder # TODO or sth else?
-  img: img/profile-images/23122192.img
+  img: /img/profile-images/23122192.img
   github: arefsa78
   bio: blah blah blah blah blah blah blaaaaaah
   visible: true
   
 - name: Omid Amini
   role: Coder # TODO or sth else?
-  img: img/profile-images/23122192.img
+  img: /img/profile-images/23122192.img
   github: mroa4
   bio: A.K.A. MROA
   visible: true
 
 - name: Arad Firouzkoohi
   role: Coder # TODO or sth else?
-  img: img/profile-images/23122192.img
+  img: /img/profile-images/23122192.img
   github: aradfir
   bio: blah blah blah blah blah blah blaaaaaah
   visible: true
