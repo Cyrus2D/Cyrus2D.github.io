@@ -1,6 +1,6 @@
 # Site settings
-title: Project Pages
-description: "An Integrated Scientific Blogging Template"
+title: CYRUS
+description: "Soccer Simulation 2D Team"
 url: "https://cyrus2d.github.io"
 
 
@@ -8,7 +8,7 @@ url: "https://cyrus2d.github.io"
 
 # Secondary Parameters
 baseurl: ""
-header-img: img/home-bg.jpg
+header-img: img/home-bg2.png
 headercolor: "#FFFFFF"
 logo: /img/logos/Project-Pages-New-Logo-Inverted.png
 
@@ -36,7 +36,7 @@ defaults:
       type: "pages"
     values:
       layout: "project"
-      header-img: "img/home-bg.jpg"
+      header-img: "img/home-bg2.png"
 
 # Prose Settings
 prose:

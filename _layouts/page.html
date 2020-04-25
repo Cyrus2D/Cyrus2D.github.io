@@ -3,25 +3,49 @@ layout: default
 ---
 
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading" style="padding: 75px 0">
-					{% if page.url == '/' %}
-					{% if site.logo %}
-					<img src= "{{ site.logo }}" style="height: 150px">
-					{% endif %}	
-					{% else %}{% endif %}	
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <hr class="small">
-                    <span class="subheading">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</span>
+<!--<header class="intro-header" id="intro" style="">-->
+<!--    <div class="backimage"></div>-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">-->
+<!--                <div class="site-heading" style="padding: 75px 0">-->
+<!--					{% if page.url == '/' %}-->
+<!--					{% if site.logo %}-->
+<!--					<img src= "{{ site.logo }}" style="height: 150px">-->
+<!--					{% endif %}	-->
+<!--					{% else %}{% endif %}	-->
+<!--                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>-->
+<!--                    <hr class="small">-->
+<!--                    <span class="subheading">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</span>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</header>-->
+
+<header class="intro">
+    <div class="background-image"></div>
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading" style="padding: 10px 0">
+                        {% if page.url == '/' %}
+                        {% if site.logo %}
+                        <img src= "{{ site.logo }}" style="height: 150px">
+                        {% else %}
+                        <br><br>
+                        {% endif %}
+                        {% else %}{% endif %}
+                        <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                        <hr class="small">
+                        <span class="subheading">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </header>
-
 <!-- Main Content -->
 <div class="container">
 	<div class="row">
@@ -31,4 +55,37 @@ layout: default
 	</div>
 </div>
 
+<style>
+
+.intro {
+    display: table;
+    width: 100%;
+    height: 400px;
+    padding: 45px 0;
+    text-align: center;
+    color: white;
+}
+
+.intro .background-image {
+
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
+background-size: cover;
+        /*background-image: ;*/
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    background-repeat: no-repeat;
+}
+
+.intro .intro-body {
+  z-index: 9999;
+  display: table-cell;
+  vertical-align: middle;
+}
+</style>
 <hr>
