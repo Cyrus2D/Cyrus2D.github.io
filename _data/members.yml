@@ -8,14 +8,14 @@
   bio: A.K.A. NKPO
 #  url: http://ahmetcecen.github.io/
   visible: true
-   
+
 - name: Aref Sayareh
   role: Coder # TODO or sth else?
   img: /img/profile-images/23122192.png # TODO Image
   github: arefsa78
-  bio: blah Bblah Bblah Bblah blah blah blaaaaaah
+  bio: In junior I was in Fury Team, after that I join Cyrus. A T.C. in Iran open and Studying in Shiraz University Computer Engineering.
   visible: true
-  
+
 - name: Omid Amini
   role: Coder # TODO or sth else?
   img: /img/profile-images/23122192.png # TODO Image
