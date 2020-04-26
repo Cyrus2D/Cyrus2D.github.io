@@ -2,12 +2,14 @@
 
 - name: Nader Zare
   role: Leader
-  img: /img/profile-images/23122192.png # TODO Image
+  img: /img/profile-images/nader.png # TODO Image
   github: naderzare
-#  gplus: https://plus.google.com/+AhmetCecen-GPlus
   bio: A.K.A. NKPO
-#  url: http://ahmetcecen.github.io/
   visible: true
+  startyear: 2012
+  enddate: 2030
+  linkedin: https://www.linkedin.com/in/nader-zare/
+  email: nader.zare88@gmail.com
 
 - name: Aref Sayareh
   role: Coder # TODO or sth else?
@@ -15,6 +17,8 @@
   github: arefsa78
   bio: In junior I was in Fury Team, after that I join Cyrus. A T.C. in Iran open and Studying in Shiraz University Computer Engineering.
   visible: true
+  startyear: 2012
+  enddate: 2030
 
 - name: Omid Amini
   role: Coder # TODO or sth else?
@@ -22,6 +26,8 @@
   github: mroa4
   bio: A.K.A. MROA
   visible: true
+  startyear: 2012
+  enddate: 2030
 
 - name: Arad Firouzkoohi
   role: Coder # TODO or sth else?
@@ -29,3 +35,32 @@
   github: aradfir
   bio: blah blah blah blah blah blah blaaaaaah
   visible: true
+  startyear: 2012
+  enddate: 2030
+
+- name: Ashakn Keshavarzi
+  role: Coder # TODO or sth else?
+  img: /img/profile-images/23122192.png # TODO Image
+  github: aradfir
+  bio: blah blah blah blah blah blah blaaaaaah
+  visible: true
+  startyear: 2014
+  enddate: 2018
+
+- name: Mohsen Sadeghipour
+  role: Coder # TODO or sth else?
+  img: /img/profile-images/23122192.png # TODO Image
+  github: aradfir
+  bio: blah blah blah blah blah blah blaaaaaah
+  visible: true
+  startyear: 2017
+  enddate: 2018
+
+- name: Mahtab Sarvmaili
+  role: Coder # TODO or sth else?
+  img: /img/profile-images/23122192.png # TODO Image
+  github: aradfir
+  bio: blah blah blah blah blah blah blaaaaaah
+  visible: true
+  startyear: 2017
+  enddate: 2030
