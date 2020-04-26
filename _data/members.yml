@@ -2,7 +2,7 @@
 
 - name: Nader Zare
   role: Leader
-  img: /img/profile-images/nader.png # TODO Image
+  img: /img/profile-images/nader.png
   github: naderzare
   bio: A.K.A. NKPO
   visible: true
@@ -19,6 +19,7 @@
   visible: true
   startyear: 2012
   enddate: 2030
+  email: arefsayareh@gmail.com
 
 - name: Omid Amini
   role: Coder # TODO or sth else?
