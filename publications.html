@@ -1,0 +1,18 @@
+---
+layout: page
+title: "Publications"
+description: "Cyrus team members' publications"
+---
+
+{% for publication in site.data.publications reversed| sort:year %}
+    <div class="post-preview">
+        <a href="{{ publication.url }}">
+            <h2 class="post-title">{{ publication.title }}</h2>
+        </a>
+        <p class="post-meta" style="margin-bottom:5px">Authors: {{ publication.authors }} on {{ publication.year }}</p>
+        <p>
+            {{publication.abstract}}
+        </p>
+    </div>
+<hr>
+{% endfor %}
