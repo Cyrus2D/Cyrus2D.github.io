@@ -4,16 +4,16 @@
   year: 2013
   url: http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2013/Cyrus_SS2D_RC2013_TDP.pdf
   authors: Rouf Khayami, Nader Zare, Hossein Zolanvar, Peyman Mahoor, Moein Fatehi, Maryam Karimi, Fateme Tekrar, Ehsan Asali
-  abstract: We made this report to consider the goals, algorithms and formations that we used in the Cyrus soccer2d simulation team and we try to introduce a full view of how our team works and what our players can do .in this report, we explain more about algorithms of direct pass , through pass , pass strategy , shoot strategy , goalie , defensive system , dynamic roles and players’ dynamic movements .
+  abstract: We made this report to consider the goals, algorithms and formations that we used in the Cyrus soccer2d simulation team and we ...
 
 - title: CYRUS 2D simulation team description paper 2014
   year: 2014
   url: http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2014/CYRUS_SS2D_RC2014_TDP.pdf
   authors: Rauf Khayami, Nader Zare, Maryam Karimi, Payman Mahor, Ardavan Afshar, Mohammad Sadegh Najafi, Mahsa Asadi, Fatemeh Tekrar, Ehsan Asali, Ashkan Keshavarzi1
-  abstract: This description includes some explanation about algorithms, aims and analyzer software designed by Cyrus team members. The aims of this description is to express a brief explanation about analyzer software, behavior, defensive decisions, optimizing states evaluations, offensive movement without ball and offensive decision making. It also explained about the parts that are implementing. The base code that Cyrus used is agent 3.11. We use artificial intelligence techniques to improve the team in defense, offense and evaluation
+  abstract: This description includes some explanation about algorithms, aims and analyzer software designed by Cyrus team members. The aims ...
 
 - title: Cyrus Soccer 2D Simulation Team Description Paper 2015
   year: 2015
   url: http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2015/Cyrus_SS2D_RC2015_TDP.pdf
   authors: Nader Zare, Maryam Karimi, Ashkan Keshavarzi, Ehsan Asali, Hassan Ali Poor, Armin Aminian, Ehsan Beheshtian, Hadi Mola, Hossein Jafari, Mohammad Javad Khademian
-  abstract: This description expresses brief explanation about algorithms and aims in Cyrus 2D simulation team and presents an overview of team’s performance and players capabilities. The main goal is to get the players the ablility to decide based on accurate and noise-free information. By checking different solutions in defense decision making and using communication between agents, environmental noise was omitted and defense decision making was improved. Different situations and approaches that could be used in defense will be discussed and a new approach of using message passing in 2D simulation for coordination between agents with the least expense will be introduced. The base code that Cyrus used is agent 3.11.
+  abstract: This description expresses brief explanation about algorithms and aims in Cyrus 2D simulation team and presents an overview of team’s ...
