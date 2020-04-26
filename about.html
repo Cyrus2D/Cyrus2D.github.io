@@ -1,0 +1,15 @@
+---
+layout: page
+title: "About"
+description: "Cyrus Awards"
+---
+
+{% for league in site.data.about %}
+<div class="post-preview" style="margin-bottom: 50px">
+    <center>
+        <h1>{{league.cup}} {{league.year}} {{league.place}}</h1>
+        <h2>{{league.rank}} Place</h2>
+    </center>
+</div>
+<hr>
+{% endfor %}
