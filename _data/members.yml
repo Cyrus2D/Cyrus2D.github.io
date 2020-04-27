@@ -53,12 +53,13 @@
   
 - name: Ashakn Keshavarzi
   role: Coder # TODO or sth else?
-  img: /img/profile-images/23122192.png # TODO Image
-  github: aradfir
+  img: /img/profile-images/ashkan.jpeg # TODO Image
+  github: ashkanksh
   bio: blah blah blah blah blah blah blaaaaaah
   visible: true
   startyear: 2014
   enddate: 2018
+  email: keshavarzi.ashkan@gmail.com
 
 - name: Mohsen Sadeghipour
   role: Coder # TODO or sth else?
