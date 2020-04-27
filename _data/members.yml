@@ -13,7 +13,7 @@
 
 - name: Aref Sayareh
   role: Coder # TODO or sth else?
-  img: /img/profile-images/aref.png
+  img: /img/profile-images/aref.jpg
   github: arefsa78
   bio: In junior I was in Fury Team, after that I join Cyrus. A T.C. in Iran open and Studying in Shiraz University Computer Engineering.
   visible: true
@@ -23,7 +23,7 @@
 
 - name: Omid Amini
   role: Coder # TODO or sth else?
-  img: /img/profile-images/omid.png
+  img: /img/profile-images/omid.jpg
   github: mroa4
   bio: A.K.A. MROA
   visible: true
@@ -32,7 +32,7 @@
 
 - name: Arad Firouzkoohi
   role: Coder # TODO or sth else?
-  img: /img/profile-images/arad.png
+  img: /img/profile-images/arad.jpg
   github: aradfir
   bio: blah blah blah blah blah blah blaaaaaah
   visible: true
