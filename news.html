@@ -3,7 +3,8 @@ layout: page
 title: "News"
 description: "Soccer Simulation 2D League and Cyrus News"
 ---
-{% for post in paginator.posts %}
+<!--todo use paginator-->
+{% for post in site.posts %}
     <div class="post-preview">
         <a href="{{ post.url | prepend: site.baseurl }}">
             <h2 class="post-title">{{ post.title }}</h2>
