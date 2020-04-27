@@ -7,38 +7,49 @@ description: "Collaborators working on this project."
 
 {% for member in site.data.members %} {% if member.visible == true %}
 
-	<img src="{{ member.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:150px; height: 150px; border-radius: 10%;!important">
-	<h2>{{ member.name }}</h2>
-	<h4>{{ member.startyear }} to {% if member.enddate != 2030 %}{{ member.enddate }}{% endif %}</h4>
-	
-	{% if member.github %} 
-		<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img class="icon_image" src="{{ "/img/icons/github-icon.png" }}"></a></span>
-	{% endif %}
-	{% if member.gplus %}
-		<span class="social-share-googleplus"><a href="{{ member.gplus }}" title="Google Plus"><img class="icon_image" src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}"></a></span>
-	{% endif %}
-	{% if member.url %}
-		<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img class="icon_image" src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" ></a></span>
-	{% endif %}
-	{% if member.linkedin %}
-		<span class="social-share-googleplus"><a href="{{ member.linkedin }}" title="Linkedin"><img class="icon_image" src="{{ "/img/icons/linkdin.webp" }}"></a></span>
-	{% endif %}
-	{% if member.email %}
-		<span class="social-share-googleplus"><a href="{{ member.email }}" title="email"><img class="icon_image" src="{{ "/img/icons/email.webp" }}" ></a></span>
-	{% endif %}
-	</br>
+<div
+        style="background-image: url('{{ member.img }}');
+        background-size: cover;
+        margin-top:0px;
+         margin-bottom:5px;
+          margin-right:10px;
+           float:left; width:150px; height: 150px; border-radius: 10%;!important">
+</div>
+<h2>{{ member.name }}</h2>
+<h4>{{ member.startyear }} to {% if member.enddate != 2030 %}{{ member.enddate }}{% endif %}</h4>
 
-	{% if member.bio %} 
-	{{ member.bio }}
-	{% endif %}
-	
-	<hr>
+{% if member.github %}
+<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img
+        class="icon_image" src="{{ "/img/icons/github-icon.png" }}"></a></span>
+{% endif %}
+{% if member.gplus %}
+<span class="social-share-googleplus"><a href="{{ member.gplus }}" title="Google Plus"><img class="icon_image"
+                                                                                            src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}"></a></span>
+{% endif %}
+{% if member.url %}
+<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img class="icon_image"
+                                                                                          src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" ></a></span>
+{% endif %}
+{% if member.linkedin %}
+<span class="social-share-googleplus"><a href="{{ member.linkedin }}" title="Linkedin"><img class="icon_image"
+                                                                                            src="{{ "/img/icons/linkdin.webp" }}"></a></span>
+{% endif %}
+{% if member.email %}
+<span class="social-share-googleplus"><a href="{{ member.email }}" title="email"><img class="icon_image" src="{{ "/img/icons/email.webp" }}" ></a></span>
+{% endif %}
+</br>
+
+{% if member.bio %}
+{{ member.bio }}
+{% endif %}
+
+<hr>
 
 {% endif %}{% endfor %}
 
 <style>
-	.icon_image{
-		height: 30px;
-		width: 30px;
-	}
+    .icon_image {
+        height: 30px;
+        width: 30px;
+    }
 </style>
