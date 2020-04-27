@@ -43,7 +43,7 @@
 
 - name: Mahtab Sarvmaili
   role: Coder # TODO or sth else?
-  img: /img/profile-images/mahtab.jpeg # TODO Image
+  img: /img/profile-images/mahtab.jpg # TODO Image
   github: mahtabs
   bio: blah blah blah blah blah blah blaaaaaah
   visible: true
