@@ -29,6 +29,7 @@
   visible: true
   startyear: 2012
   enddate: 2030
+  email: omidamini360@gmail.com
 
 - name: Arad Firouzkoohi
   role: Coder # TODO or sth else?
@@ -38,7 +39,18 @@
   visible: true
   startyear: 2012
   enddate: 2030
+  email: aradfir@gmail.com
 
+- name: Mahtab Sarvmaili
+  role: Coder # TODO or sth else?
+  img: /img/profile-images/mahtab.jpeg # TODO Image
+  github: mahtabs
+  bio: blah blah blah blah blah blah blaaaaaah
+  visible: true
+  startyear: 2017
+  enddate: 2030
+  email: mahtab.sarvmaili@dal.ca
+  
 - name: Ashakn Keshavarzi
   role: Coder # TODO or sth else?
   img: /img/profile-images/23122192.png # TODO Image
@@ -57,11 +69,5 @@
   startyear: 2017
   enddate: 2018
 
-- name: Mahtab Sarvmaili
-  role: Coder # TODO or sth else?
-  img: /img/profile-images/23122192.png # TODO Image
-  github: aradfir
-  bio: blah blah blah blah blah blah blaaaaaah
-  visible: true
-  startyear: 2017
-  enddate: 2030
+
+
