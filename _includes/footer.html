@@ -80,8 +80,20 @@
         src: url(/css/fonts/Roboto-Bold.ttf);
     }
 
+    @font-face {
+        font-family: font-site-black;
+        src: url(/css/fonts/Roboto-Black.ttf);
+    }
+
     div, a, nav, h1, h2, h3, h4, h5, h6 {
-        font-family: font-site, font-site-bold !important;
+        font-family: font-site, font-site-bold, font-site-black !important;
+    }
+    *::selection{
+        background-color: rgb(0,154,49);
+        color: white;
+    }
+    a:hover{
+        color: rgb(0,154,49);
     }
 </style>
 
