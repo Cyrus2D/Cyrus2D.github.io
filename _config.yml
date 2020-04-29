@@ -1,7 +1,7 @@
 # Site settings
 title: CYRUS
 description: "Soccer Simulation 2D Team"
-url: "http://127.0.0.1:4000/"
+url: "https://cyrus2d.github.io/"
 
 
 
@@ -30,8 +30,7 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 # Jekyll Settings
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "projects"
       type: "pages"
     values:
@@ -60,7 +59,7 @@ prose:
         field:
           element: "text"
           label: "Project"
-          value: ""           
+          value: ""
     _posts:
       - name: "subtitle"
         field:
@@ -102,7 +101,7 @@ prose:
         field:
           element: "text"
           label: "Project"
-          value: ""    
+          value: ""
       - name: "horizontal"
         field:
           element: "hidden"
@@ -126,13 +125,13 @@ prose:
             - name: "Blood"
               value: "blood"
             - name: "Moon"
-              value: "moon"          
+              value: "moon"
             - name: "Night"
               value: "night"
             - name: "Sky"
               value: "sky"
             - name: "Solarized"
-              value: "solarized"             
+              value: "solarized"
       - name: "trans"
         field:
           element: "select"
@@ -144,13 +143,13 @@ prose:
             - name: "Page"
               value: "page"
             - name: "Concave"
-              value: "concave"          
+              value: "concave"
             - name: "Linear"
               value: "linear"
             - name: "Fade"
               value: "fade"
             - name: "None"
-              value: "none"             
+              value: "none"
       - name: "visualworkflow"
         field:
           element: "checkbox"
