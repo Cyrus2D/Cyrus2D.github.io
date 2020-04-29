@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer>
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     {% if site.twitter_username %}
@@ -34,7 +34,7 @@
                         </a>
                     </li>
                     {% endif %}
-					{% if site.github_username == "projectpages" %}
+                    {% if site.github_username == "projectpages" %}
                     <li>
                         <a href="https://github.com/projectpages/project-pages/issues">
                             <span class="fa-stack fa-lg">
@@ -43,7 +43,7 @@
                             </span>
                         </a>
                     </li>
-		    <li>
+                    <li>
                         <a href="https://github.com/projectpages/project-pages/wiki/">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -59,11 +59,29 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}				
+                    {% endif %}
                 </ul>
-                <p class="copyright text-muted"> Copyright © <a href="http://ahmetcecen.github.io/" target="_blank">Ahmet Cecen</a>,  <a href="http://mined.gatech.edu/" target="_blank">MINED@GaTech</a> and <a href="https://github.com/projectpages" target="_blank">Project Pages</a> 2016. </p>
+                <p class="copyright text-muted"> Copyright © <a href="http://ahmetcecen.github.io/" target="_blank">Ahmet
+                    Cecen</a>, <a href="http://mined.gatech.edu/" target="_blank">MINED@GaTech</a> and <a
+                        href="https://github.com/projectpages" target="_blank">Project Pages</a> 2016. </p>
             </div>
         </div>
     </div>
 </footer>
+
+<style>
+    @font-face {
+        font-family: font-site;
+        src: url(/css/fonts/Roboto-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: font-site-bold;
+        src: url(/css/fonts/Roboto-Bold.ttf);
+    }
+
+    div, a, nav, h1, h2, h3, h4, h5, h6 {
+        font-family: font-site, font-site-bold !important;
+    }
+</style>
 
