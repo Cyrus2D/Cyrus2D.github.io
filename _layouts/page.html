@@ -16,9 +16,12 @@ layout: default
                         <br><br>
                         {% endif %}
                         {% else %}{% endif %}
-                        <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                        <h1>CYRUS</h1>
                         <hr class="small">
                         <span class="subheading">
+                            {% if page.title %}
+                                {{ page.title }}
+                            {% else %}
                             {% if page.description %}
                                 {{ page.description }}
                             {% else %}
@@ -27,6 +30,7 @@ layout: default
                                 {% else %}
                                     {{site.description}}
                                 {% endif %}
+                            {% endif %}
                             {% endif %}
                         </span>
                     </div>

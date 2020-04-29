@@ -87,6 +87,8 @@ layout: page
     <div id="content" class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<h2>{{page.subject}}</h2>
+				<h4 class="post-meta">{{page.subtitle}}</h4>
 				{{ content | markdownify }}
                 <hr>
                 <ul class="pager">
@@ -107,7 +109,4 @@ layout: page
     </div>
 </article>
 
-<hr>
-{% include _comments.html %}
-<hr>
 

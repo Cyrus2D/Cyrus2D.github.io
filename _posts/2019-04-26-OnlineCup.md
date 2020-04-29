@@ -1,8 +1,9 @@
 ---
 layout:     post
-title:      First Online Cup
+title:      NEWS
 author:     Nader Zare
 tags: 		robocup, online cup
+subject:      First Online Cup
 subtitle:  	IranOpen soccer simulation 2d committee held online ss2d cup with good slogan "Stay Home and Compete" and cyrus was champion of this competition
 category:  ai
 ---

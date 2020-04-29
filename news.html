@@ -7,7 +7,7 @@ description: "Soccer Simulation 2D League and Cyrus News"
 {% for post in site.posts %}
     <div class="post-preview">
         <a href="{{ post.url | prepend: site.baseurl }}">
-            <h2 class="post-title">{{ post.title }}</h2>
+            <h2 class="post-title">{{ post.subject }}</h2>
             {% if post.subtitle %}
             <h3 class="post-subtitle">
                 {{ post.subtitle }}
