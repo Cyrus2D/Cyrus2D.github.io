@@ -40,6 +40,7 @@ layout: page
 
 <h2>Cyrus News</h2>
 <div>
+    <p>
     {% for post in site.posts %}
     <ul>
         <li><a href="{{ post.url | prepend: site.baseurl }}">
@@ -47,6 +48,7 @@ layout: page
         </a></li>
     </ul>
     {% endfor %}
+</p>
 </div>
 
 
