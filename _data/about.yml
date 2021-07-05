@@ -1,6 +1,12 @@
 # About
 
 - cup: RoboCup
+  year: 2021
+  place: WorldWide
+  shortplace: WW
+  rank: 1st
+  
+- cup: RoboCup
   year: 2019
   place: Australia
   shortplace: AU
@@ -24,6 +30,18 @@
   shortplace: BR
   rank: 5th
 
+- cup: Asia-Pacific
+  year: 2018
+  place: Iran
+  shortplace: IR
+  rank: 1st
+  
+- cup: IranOpen
+  year: 2021
+  place: Iran
+  shortplace: IR
+  rank: 1st
+  
 - cup: IranOpen
   year: 2018
   place: Iran
