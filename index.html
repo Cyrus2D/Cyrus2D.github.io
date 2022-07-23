@@ -1,0 +1,86 @@
+---
+layout: page
+---
+
+<h2 >Introduction</h2>
+<p>
+    Cyrus is a soccer simulation 2d team that established in 2011 by Shiraz University of Technology,
+    We participated in RoboCup since 2013, IranOpen since 2012, Cyrus was in second place in RoboCup 2018 and third
+    place in RoboCup 2019 and was champion of IranOpen soccer simulation 2d team in 2014, 2017, 2018.
+</p>
+
+<div class="card mb-5">
+    <h5 class="card-header"><a href="/releases/">Released</a></h5>
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="https://github.com/Cyrus2D">Cyrus on GitHub</a></li>
+            {% for release in site.data.releases %}
+            <li class="list-group-item"><a href="{{release.url}}">{{release.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="card mb-5">
+    <h5 class="card-header">Binaries</h5>
+    <div class="card-body">
+        <div class="card-subtitle font-weight-bold">Major</div>
+        <ul class="list-group list-group-flush">
+            {% for bin in site.data.binaries %} {% if bin.type == "major" %}
+            <li class="list-group-item"><a href="{{bin.url}}">{{bin.title}}</a></li>
+            {% endif %}{% endfor %}
+        </ul>
+        <div class="card-subtitle font-weight-bold mt-3">Junior</div>
+        <ul class="list-group list-group-flush">
+            {% for bin in site.data.binaries %} {% if bin.type == "junior" %}
+            <li class="list-group-item"><a href="{{bin.url}}">{{bin.title}}</a></li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="card mb-5">
+    <h5 class="card-header"><a href="/releases/">News</a></h5>
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+            {% for post in site.posts %}
+            <li class="list-group-item"><a href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.subject }}
+            </a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+    <ul class="pager">
+        {% if paginator.previous_page %}
+        <li class="previous">
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        </li>
+        {% endif %}
+        {% if paginator.next_page %}
+        <li class="next">
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        </li>
+        {% endif %}
+    </ul>
+{% endif %}
+
+<style>
+    .card ul li a{
+
+    }
+    .card-header{
+        background-color: rgb(0,154,49);
+        color: white;
+    }
+    .card-header a{
+        color: white;
+    }
+    .card-header a:hover{
+        color: white;
+    }
+</style>

@@ -1,0 +1,74 @@
+# Members
+
+- name: Nader Zare
+  role: Leader
+  img: /img/profile-images/nader.png
+  github: naderzare
+  bio: A.K.A. NKPO 123
+  visible: true
+  startyear: 2012
+  enddate: --
+  linkedin: https://www.linkedin.com/in/nader-zare/
+  email: nader.zare88@gmail.com
+
+- name: Aref Sayareh
+  role: Coder # TODO or sth else?
+  img: /img/profile-images/aref.jpg
+  github: arefsa78
+  bio: In junior I was in Fury Team, after that I join Cyrus. A T.C. in Iran open and Studying in Shiraz University Computer Engineering. In junior I was in Fury Team, after that I join Cyrus. A T.C. in Iran open and Studying in Shiraz University Computer Engineering.
+  visible: true
+  startyear: 2012
+  enddate: --
+  email: arefsayareh@gmail.com
+
+- name: Omid Amini
+  role: Coder # TODO or sth else?
+  img: /img/profile-images/omid.jpg
+  github: mroa4
+  bio: A.K.A. MROA
+  visible: true
+  startyear: 2012
+  enddate: --
+  email: omidamini360@gmail.com
+
+- name: Arad Firouzkoohi
+  role: Coder # TODO or sth else?
+  img: /img/profile-images/arad.jpg
+  github: aradfir
+  bio: blah blah blah blah blah blah blaaaaaah
+  visible: true
+  startyear: 2012
+  enddate: --
+  email: aradfir@gmail.com
+
+- name: Mahtab Sarvmaili
+  role: Coder # TODO or sth else?
+  img: /img/profile-images/mahtab.jpg # TODO Image
+  github: mahtabs
+  bio: blah blah blah blah blah blah blaaaaaah
+  visible: true
+  startyear: 2017
+  enddate: --
+  email: mahtab.sarvmaili@dal.ca
+  
+- name: Ashakn Keshavarzi
+  role: Coder # TODO or sth else?
+  img: /img/profile-images/ashkan.jpeg # TODO Image
+  github: ashkanksh
+  bio: blah blah blah blah blah blah blaaaaaah
+  visible: true
+  startyear: 2014
+  enddate: 2018
+  email: keshavarzi.ashkan@gmail.com
+
+- name: Mohsen Sadeghipour
+  role: Coder # TODO or sth else?
+  img: /img/profile-images/23122192.png # TODO Image
+  github: aradfir
+  bio: blah blah blah blah blah blah blaaaaaah
+  visible: true
+  startyear: 2017
+  enddate: 2018
+
+
+

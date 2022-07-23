@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<header class="intro mb-5">
+    <div class="background-image"></div>
+    <div class="intro-body">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <a class="link-header" href="https://github.com/Cyrus2D" target="_blank">
+                        <div class="site-heading" style="padding: 10px 0">
+                            {% if page.url == '/' %}
+                            {% if site.logo %}
+                            <img src="{{ site.logo }}" style="height: 150px">
+                            {% else %}
+                            <br><br>
+                            {% endif %}
+                            {% else %}{% endif %}
+                            <h1>CYRUS</h1>
+                            <hr class="small">
+                            <span class="subheading">
+                            {% if page.title %}
+                                {{ page.title }}
+                            {% else %}
+                            {% if page.description %}
+                                {{ page.description }}
+                            {% else %}
+                                {% if page.subtitle %}
+                                    {{ page.subtitle }}
+                                {% else %}
+                                    {{site.description}}
+                                {% endif %}
+                            {% endif %}
+                            {% endif %}
+                        </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Main Content -->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 custom-font">
+            {{ content }}
+        </div>
+    </div>
+</div>
+
+<style>
+
+    .intro {
+        display: table;
+        width: 100%;
+        height: 400px;
+        padding: 45px 0;
+        text-align: center;
+        color: white;
+    }
+
+    .intro .background-image {
+
+        z-index: -1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 400px;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
+        background-size: cover;
+        background-position: center;
+        -webkit-filter: blur(3px);
+        filter: blur(3px);
+        background-repeat: no-repeat;
+    }
+
+    .intro .intro-body {
+        z-index: 9999;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .link-header{
+        color: white;
+    }
+    .link-header:hover{
+        text-decoration: none;
+        color: white;
+    }
+</style>
+<hr>

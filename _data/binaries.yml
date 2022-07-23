@@ -1,0 +1,37 @@
+# Binaries
+
+- title: RoboCup 2019
+  url: http://archive.robocup.info/Soccer/Simulation/2D/binaries/RoboCup/2019/Elimination/CYRUS_SS2D_RC2019_R4_BIN.tar.gz
+  type: major
+
+- title: RoboCup 2018
+  url: http://archive.robocup.info/Soccer/Simulation/2D/binaries/RoboCup/2018/CYRUS_SS2D_RC2018_BIN.tgz
+  type: major
+
+- title: RoboCup 2017
+  url: http://archive.robocup.info/Soccer/Simulation/2D/binaries/RoboCup/2017/CYRUS_SS2D_RC2017_BIN.tgz
+  type: major
+
+- title: RoboCup 2016
+  url: http://archive.robocup.info/Soccer/Simulation/2D/binaries/RoboCup/2016/CYRUS_SS2D_RC2016_BIN.tar.gz
+  type: major
+
+- title: RoboCup 2015
+  url: http://archive.robocup.info/Soccer/Simulation/2D/binaries/RoboCup/2015/CYRUS_SS2D_RC2015_BIN.tar.gz
+  type: major
+
+- title: RoboCup 2014
+  url: http://archive.robocup.info/Soccer/Simulation/2D/binaries/RoboCup/2014/CYRUS_SS2D_RC2014_BIN.tar.gz
+  type: major
+
+- title: RoboCup 2013
+  url: http://archive.robocup.info/Soccer/Simulation/2D/binaries/RoboCup/2013/Cyrus_SS2D_RC2013_BIN.tar.gz
+  type: major
+
+- title: IranOpen 2018(AsiaPacific)
+  url: http://archive.robocup.info/Soccer/Simulation/2D/binaries/RCAP/2018/Major/CYRUS_SS2D_RCAP2018_BIN.tar.gz
+  type: major
+
+- title: IranOpen 2018(AsiaPacific) - CyrusStarter
+  url: http://archive.robocup.info/Soccer/Simulation/2D/binaries/RCAP/2018/Starter/CYRUS-Starter_SS2D_RCAP2018_BIN.tar.gz
+  type: junior

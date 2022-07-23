@@ -1,0 +1,18 @@
+---
+layout: page
+title: "Releases"
+description: "Cyrus team members' releases"
+---
+
+{% for release in site.data.releases %}
+<div class="post-preview">
+    <a href="{{ release.url }}">
+        <h3>{{ release.title }}</h3>
+    </a>
+    <p class="post-meta" style="margin-bottom:5px">Developers: {{ release.developers }} on {{ release.year }}</p>
+    <p>
+        {{release.description}}
+    </p>
+</div>
+<hr>
+{% endfor %}

@@ -1,0 +1,131 @@
+---
+layout: page
+title: "About"
+description: "Cyrus Awards"
+---
+<script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+<div id="mapdiv" style="margin-top: -3rem; width: 100%; height: 450px;"></div>
+<div id="mapdiv-bar"
+     style="width: 100%; font-size: 70%; padding: 5px 0; text-align: center;
+     background-color: #dddde0;color: black; margin-top: 1px;">
+    Cyrus World Wide Rewards
+</div>
+<script type="text/javascript">
+    var map = AmCharts.makeChart("mapdiv", {
+        type: "map",
+        theme: "dark",
+        projection: "mercator",
+        panEventsEnabled: true,
+        backgroundColor: "#535364",
+        backgroundAlpha: 0.2,
+        zoomControl: {
+            zoomControlEnabled: false
+        },
+        dataProvider: {
+            map: "worldHigh",
+            getAreasFromMap: true,
+            areas:
+                [
+                    {
+                        "id": "CA",
+                        "showAsSelected": true,
+                        "title": "Canada: 2nd Place"
+                    },
+                    {
+                        "id": "BR",
+                        "showAsSelected": true,
+                        "title": "Brazil: 5th Place"
+                    },
+                    {
+                        "id": "IR",
+                        "showAsSelected": true,
+                        "title": "Iran: IranOpens"
+                    },
+                    {
+                        "id": "JP",
+                        "showAsSelected": true,
+                        "title": "Japan: 4th Place"
+                    },
+                    {
+                        "id": "AU",
+                        "showAsSelected": true,
+                        "title": "Australia: 3rd Place"
+                    }
+                ]
+        },
+        areasSettings: {
+            autoZoom: true,
+            color: "#fff",
+            colorSolid: "#009a31",
+            selectedColor: "#009a31",
+            outlineColor: "#535364",
+            rollOverColor: "#009a31",
+            rollOverOutlineColor: "#000000"
+        }
+    });
+
+
+    map_elem = document.getElementById('mapdiv');
+    map_bar = document.getElementById('mapdiv-bar');
+    margin = map_elem.offsetLeft + map_elem.parentElement.offsetLeft + 'px';
+    width = window.innerWidth + 'px';
+
+    debugger
+    map_elem.style.marginLeft = '-' + margin;
+    map_bar.style.marginLeft = '-' + margin;
+
+    map_elem.style.width = width;
+    map_bar.style.width = width;
+
+
+</script>
+
+<div class="card mt-5">
+    <h3 class="card-header"><a href="/releases/">RoboCups</a></h3>
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+            {% for league in site.data.about %} {% if league.cup == "RoboCup" %}
+            <li class="list-group-item">
+                {{league.place}} <span class="font-weight-bold">{{league.year}}</span>: {{league.rank}}
+                Place
+            </li>
+            {% endif %} {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="card mt-5">
+    <h3 class="card-header"><a href="/releases/">IranOpens</a></h3>
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+            {% for league in site.data.about %} {% if league.cup == "IranOpen" %}
+            <li class="list-group-item">
+                {{league.place}} <span class="font-weight-bold">{{league.year}}</span>: {{league.rank}}
+                Place
+            </li>
+            {% endif %} {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<style>
+    .card ul li a {
+
+    }
+
+    .card-header {
+        background-color: rgb(0, 154, 49);
+        color: white;
+    }
+
+    .card-header a {
+        color: white;
+    }
+
+    .card-header a:hover {
+        color: white;
+    }
+
+</style>

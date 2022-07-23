@@ -1,0 +1,61 @@
+# Publications
+
+- title: Cyrus 2D Simulation 2019 Team Description Paper
+  year: 2019
+  url: http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2019/CYRUS_SS2D_RC2019_TDP.pdf
+  authors: Nader Zare, Mahtab Sarvmaili, Omid Mehrabian, Amin Nikanjam, Seyed Hossein Khasteh, Aref Sayareh, Omid Amini, Borna Barahimi, Arshia Majidi, Aria Mostajeran
+  abstract: The following team description paper demonstrates the activities carried out in the most recent year by Cyrus 2D simulation team, in brief. During ...
+
+- title: Cyrus 2D Simulation Team Description Paper 2018
+  year: 2018
+  url: http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2018/CYRUS_SS2D_RC2018_TDP.pdf
+  authors: Nader Zare, Mohsen Sadeghipour, Ashkan Keshavarzi, Mahtab Sarvmaili, Amin Nikanjam, Reza Aghayari, Arad Firouzkouhi, Mohammad Abolnejad, Sina Elahimanesh, Amin Akhgari
+  abstract: Cyrus 2D Soccer Simulation was established 2012 with the aim of research and develop in multi agents systems. This year we have joined with ...
+
+- title: Cyrus Soccer 2D Simulation Team Description Paper 2017
+  year: 2017
+  url: http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2017/CYRUS_SS2D_RC2017_TDP.pdf
+  authors: Nader Zare, Ali Najimi, Mahtab Sarvmaili, Aryan Akbarpour, Mohsen NaghipourFar, Borna Barahimi, Amin Nikanjam
+  abstract: This paper includes some explanations about algorithms implemented by CYRUS team members. The main objective is to express a brief explanation ...
+
+- title: Cyrus 2D Simulation Team Description Paper 2016
+  year: 2016
+  url: http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2016/Cyrus_SS2D_RC2016_TDP.pdf
+  authors:  Reza Javidan, Nader Zare, Ashkan Keshavarzi, Seyed Ehsan Beheshtian, Hadi Mowla, Aryan Akbarpour, Hossein Jafari, Keyvan Arab Baraghi, Mohammad Amin Zarifi, Hossein Jafari
+  abstract: This description includes some explanation about algorithms and also algorithms that are being implemented by Cyrus team members. The ob ...
+
+- title: Using Machine Learning approaches to detect opponent formation
+  year: 2016
+  url: https://ieeexplore.ieee.org/abstract/document/7529504
+  authors: Ehsan Asali, Mojtaba Valipour, Nader Zare, Ardavan Afshar, MohammadReza Katebzadeh, GH Dastghaibyfard
+  abstract: Making a correct decision is a difficult task in a Soccer Simulation 2D environment due to the fact that there is a lack of information for each agent ...
+
+- title: Intelligent and dynamic method to specify chronological order of the games to improve the excitement and fairness of the champions in simulation league
+  year: 2016
+  url: https://ieeexplore.ieee.org/abstract/document/7529510
+  authors: Nader Zare, Ashkan Keshavarzi, Hadi Mowla, Seyed Ehsan Beheshtian
+  abstract: RoboCup champions aimed at improving artificial intelligence methods. Competition formats include elimination, double elimination and round-robin. In soccer ...
+
+- title: Cyrus Soccer 2D Simulation Team Description Paper 2015
+  year: 2015
+  url: http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2015/Cyrus_SS2D_RC2015_TDP.pdf
+  authors: Nader Zare, Maryam Karimi, Ashkan Keshavarzi, Ehsan Asali, Hassan Ali Poor, Armin Aminian, Ehsan Beheshtian, Hadi Mola, Hossein Jafari, Mohammad Javad Khademian
+  abstract: This description expresses brief explanation about algorithms and aims in Cyrus 2D simulation team and presents an overview of team’s ...
+
+- title: Coordination Approach to Find Best Defense Decision with Multiple Possibilities among Robocup Soccer Simulation Team
+  year: 2015
+  url: http://www.qjcr.ir/article_675.html
+  authors: Ashkan Keshavarzi, Nader Zare
+  abstract: In 2D Soccer Simulation league, agents will decide based on information and data in their model. Effective decisions need to have world model information without ...
+
+- title: CYRUS 2D simulation team description paper 2014
+  year: 2014
+  url: http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2014/CYRUS_SS2D_RC2014_TDP.pdf
+  authors: Rauf Khayami, Nader Zare, Maryam Karimi, Payman Mahor, Ardavan Afshar, Mohammad Sadegh Najafi, Mahsa Asadi, Fatemeh Tekrar, Ehsan Asali, Ashkan Keshavarzi1
+  abstract: This description includes some explanation about algorithms, aims and analyzer software designed by Cyrus team members. The aims ...
+
+- title: Cyrus Soccer 2D Simulation Team Description Paper 2013
+  year: 2013
+  url: http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2013/Cyrus_SS2D_RC2013_TDP.pdf
+  authors: Rouf Khayami, Nader Zare, Hossein Zolanvar, Peyman Mahoor, Moein Fatehi, Maryam Karimi, Fateme Tekrar, Ehsan Asali
+  abstract: We made this report to consider the goals, algorithms and formations that we used in the Cyrus soccer2d simulation team and we ...

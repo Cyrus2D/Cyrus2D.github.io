@@ -1,0 +1,74 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-custom2 fixed-top py-0"
+     style="border-color: rgb(0,154,49);background-color: rgb(0,154,49)">
+
+    <a class="navbar-brand" href="{{ site.baseurl }}/" style="color: white">{{ site.title }}</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-items-col">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar" style="background-color: white"></span>
+        <span class="icon-bar" style="background-color: white"></span>
+        <span class="icon-bar" style="background-color: white"></span>
+    </button>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="justify-content-end collapse navbar-collapse" id="nav-items-col">
+        <ul class="nav navbar-nav">
+            <li class="nav-item px-0 mx-0">
+                <a href="{{ site.baseurl }}/" class="nav-link px-3">Home</a>
+            </li>
+            {% for page in site.pages %}
+            {% if page.title %}
+            <li class="nav-item px-0 mx-0">
+                <a href="{{ page.url | prepend: site.baseurl }}" class="font-weight-bold nav-link px-3">{{ page.title
+                    }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+    <!-- /.container -->
+</nav>
+
+<style>
+    .nav-active:hover {
+        background-color: white !important;
+    }
+
+    .nav-active {
+        background-color: white;
+        color: rgb(0, 154, 49) !important;
+    }
+
+    .nav-item .nav-link{
+        color: white;
+        font-weight: bolder;
+        font-family: font-site-black!important;
+        font-size: 14px!important;
+    }
+
+    .navbar-brand {
+        padding: 6px !important;
+        font-size: 30px;
+    }
+
+    .icon-bar {
+        background-color: white;
+        display: block;
+        border: 1px solid white;
+        width: 20px;
+        margin: 5px 0;
+    }
+
+    .in .nav-link {
+        padding-left: 10px;
+    }
+    .in {
+        display: block;
+    }
+</style>
+<script>
+    nav = document.querySelector(".nav.navbar-nav")
+    elem = nav.querySelector("a[href='" + window.location.pathname + "']");
+    elem.classList.add("nav-active");
+</script>
