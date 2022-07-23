@@ -3,16 +3,16 @@
   <p class="post-date">Series by Categories</p>
 </div>
 
-<% let categories = {}; %>
-<%
-  site.posts.each(post => {
-    const c = post.categories['data'][0]['name'];
-    if (!categories[c]) {
-      categories[c] = [];
-    }
-    categories[c].push(post);
-  })
-%>
+//<% let categories = {}; %>
+//<%
+//  site.posts.each(post => {
+//    const c = post.categories['data'][0]['name'];
+//    if (!categories[c]) {
+//      categories[c] = [];
+//    }
+//    categories[c].push(post);
+//  })
+//%>
 
 <main class="app-body">
   <div id="category-cloud">

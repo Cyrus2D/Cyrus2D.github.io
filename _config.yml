@@ -100,6 +100,8 @@ ignore:
 theme: vexo
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
+## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: Cyrus2D@github.com:Cyrus2D/Cyrus2D.github.io.git
+  branch: main

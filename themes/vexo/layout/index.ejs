@@ -6,38 +6,69 @@
   </div>
 </div>
 <div class="works">
-  <div class="work">
-    <h2>Artificial Intelligence</h2>
-    <p>
-      in this project we do lots of AI projects in this project we do lots of AI projects in this project we do lots of
-      AI projects
-    </p>
+  <div class="all">
+    <div class="work">
+      <h2>Artificial Intelligence</h2>
+      <p>
+        in this project we do lots of AI projects in this project we do lots of AI projects in this project we do lots
+        of
+        AI projects
+      </p>
+    </div>
+    <div class="work">
+      <h2>Competitions</h2>
+      <p>
+        in this project we do lots of AI projects in this project we do lots of AI projects in this project we do lots
+        of
+        AI projects
+      </p>
+    </div>
+    <div class="work">
+      <h2>Team Work</h2>
+      <p>
+        in this project we do lots of AI projects in this project we do lots of AI projects in this project we do lots
+        of
+        AI projects
+      </p>
+    </div>
   </div>
-  <div class="work">
-    <h2>Competitions</h2>
-    <p>
-      in this project we do lots of AI projects in this project we do lots of AI projects in this project we do lots of
-      AI projects
-    </p>
-  </div>
-  <div class="work">
-    <h2>Team Work</h2>
-    <p>
-      in this project we do lots of AI projects in this project we do lots of AI projects in this project we do lots of
-      AI projects
-    </p>
+</div>
+<div class="achievements">
+  <div class="all-ach">
+    <div class="compet">
+      <h2 style="margin-bottom: 50px;">International Achievements:</h2>
+      <div class="first">
+        <h2>First Place:</h2>
+        <h2>1 Time</h2>
+      </div>
+      <div class="second">
+        <h2>Second Place:</h2>
+        <h2>5 Times</h2>
+      </div>
+      <div class="third">
+        <h2>Third Place:</h2>
+        <h2>3 Times</h2>
+      </div>
+    </div>
+    <div class="papers">
+      <h2>Released Paper:</h2>
+      <h2>3</h2>
+    </div>
   </div>
 </div>
 <div class="members">
+  <h1 style="width: 980px; text-align: left;">Members</h1>
   <div class="member">
     <div class="profile">
-      <img src="css/images/nader.jpg" alt="nader-prof">
+      <div>
+        <img src="css/images/nader.jpg" alt="nader-prof">
+      </div>
     </div>
     <div class="info">
       <div class="name">
         <h1>
-        Nader Zare
-      </h1>
+          Nader Zare
+        </h1>
       </div>
       <div class="cv">
         Studying in Dalhousie, Research assistance in the university.
@@ -51,13 +82,15 @@
   </div>
   <div class="member">
     <div class="profile">
-      <img src="css/images/nader.jpg" alt="nader-prof">
+      <div>
+        <img src="css/images/nader.jpg" alt="nader-prof">
+      </div>
     </div>
     <div class="info">
       <div class="name">
         <h1>
-        Nader Zare
-      </h1>
+          Nader Zare
+        </h1>
       </div>
       <div class="cv">
         Studying in Dalhousie, Research assistance in the university.
@@ -101,8 +134,13 @@
 <style>
   .works {
     display: flex;
+    justify-content: center;
+  }
+
+  .works .all {
+    display: flex;
+    padding: 200px 0;
     max-width: 980px;
-    margin: 200px auto;
   }
 
   .works .work {
@@ -111,13 +149,14 @@
     padding: 0 15px;
     text-align: center;
   }
+
   .members {
-    background-color: #41b883;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 100px 0;
   }
+
   .members .member {
     display: flex;
     max-height: 300px;
@@ -128,12 +167,15 @@
 
 
   .member:nth-child(odd) .profile {
-    justify-content: end!important;
-
+    justify-content: end !important;
+    margin-left: 60px;
+    margin-right: 0 !important;
   }
+
   .member:nth-child(odd) {
     flex-direction: row-reverse;
   }
+
   .members .member .info {
     display: flex;
     flex-direction: column;
@@ -142,17 +184,52 @@
     width: 70%;
 
   }
+
   .members .member .profile {
     display: flex;
     justify-content: start;
     width: 30%;
+    margin-right: 60px;
+
   }
-  .members .member .profile img{
+
+  .members .member .profile div {
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2f684f;
+  }
+
+  .members .member .profile img {
     max-height: 100%;
-    max-width: 100%;
   }
-
-
+  .achievements {
+    color: white;
+    background-color: #ff5f00;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .achievements .all-ach {
+    display: flex;
+    width: 980px;
+    justify-content: space-around;
+  }
+  .achievements .all-ach .compet {
+    width: 50%;
+    padding: 0 50px;
+  }
+  .achievements .all-ach .papers {
+    width: 50%;
+    padding: 0 50px;
+  }
+  .achievements .all-ach .compet div {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .achievements .all-ach .compet div h1 {
+    margin: 0 10px;
+  }
 </style>
 
 
@@ -165,9 +242,12 @@
         'background-image': 'url(' + banner + ')'
       })
     } else {
+      // $('#article-banner').css({
+      //   'background': ' linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("css/images/home-bg.jpg") center no-repeat',
+      //   'background-size': 'cover'
+      // });
       $('#article-banner').css({
-        'background': ' linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("css/images/home-bg.jpg") center no-repeat',
-        'background-size': 'cover'
+        'background': '#ff5f00',
       })
     }
     $('.header').removeClass('fixed-header')
