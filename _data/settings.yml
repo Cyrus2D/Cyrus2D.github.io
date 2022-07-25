@@ -3,12 +3,12 @@
 # General Site Settings
 
 title: CYRUS
-logo:
+logo: "assets/images/logo.png"
 author: 
 description: this is Cyrus2D website
 email: contact@cyrus2d.com
 phone: +100 1000 1000 
-address: YeJayi, NS , Halifax, Canada
+address: Institute for Big Data Analytics , 6050 University Ave, Halifax, NS, B3H 4R2, Canada
 copyright: Copyright &copy; # 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
