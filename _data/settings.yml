@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! We Are <br> Cyrus <br> Team
+  hero-title: Cyrus <br> 2D Soccer <br> Simulation <br> Team
 
 social:
   - { icon: "ti-facebook", link: "#" }
@@ -48,8 +48,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
+blurb:  Cyrus is a robotics team focused on 2D soccer simulation founded in 2012, we participated in RoboCup since 2013, ...
 blurb-btn-link: "/about"
 blurb-btn-name: know more
 
@@ -69,7 +68,7 @@ work-process:
     icon: "assets/images/icons/print.png"
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-# My Team Section
+# Our Team Section
 team:
   - title: "Nader Zare"
     image: "assets/images/team/member-1.png"
@@ -132,7 +131,7 @@ experience:
 #-------------------------------
 # Education Section
 
-education-title: Education
+education-title: Achivements
 education:
   - {
       name: 2nd place - JapanOpen 2021,
@@ -149,11 +148,11 @@ education:
       date: "2022",
       organization: "Thailand",
     }
-  - {
-      name: st place - RoboCup 2023,
-      date: "2023",
-      organization: "France",
-    }
+# - {
+#     name: st place - RoboCup 2023,
+#     date: "2023",
+#     organization: "France",
+#   }
 
 #-------------------------------
 # Services Section

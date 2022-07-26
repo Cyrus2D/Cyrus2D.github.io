@@ -1,18 +1,15 @@
 ---
 layout: about
-title: About US
+title: About Cyrus
 author: Cyrus2D team
 image: assets/images/about/author.jpg
 signature: assets/images/about/signature.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.
+CYRUS is an AI-based team from the Dalhousie University's Institute for Big Data Analytics,
+built by Faculty of Computer Science PhD student Mahtab Sarvmaili and senior research assistant Nader Zare.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident.
-
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+Founded in 2012, the team has been participating in robotics competitions around the world over the past nine years,
+using a variety of AI and machine learning models that can be translated into a wide range
+of applications such as computer games; autonomous robots; training sports teams,
+the police or military, and natural disaster search and rescue operations.
