@@ -9,13 +9,13 @@ description: this is Cyrus2D website
 email: contact@cyrus2d.com
 phone: +100 1000 1000 
 address: Institute for Big Data Analytics , 6050 University Ave, Halifax, NS, B3H 4R2, Canada
-copyright: Copyright &copy; # 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+copyright: Copyright &copy;  2020 Designed by [Themefisher](https://themefisher.com) # & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
   - { name: About, link: "/about" }
-  - { name: Blog, link: "/blog" }
+  - { name: News, link: "/news" }
   - { name: Portfolio, link: "/portfolio" }
-  - { name: Contact, link: "/contact" }
+  # - { name: Contact, link: "/contact" }
 
 #-------------------------------
 # Google Analytics Section
@@ -278,34 +278,34 @@ testimonial-items:
 
 client-title: Our Sponsors
 client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-2.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-3.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-4.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-5.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-1.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-2.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-3.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-4.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-5.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
 
 #-------------------------------
