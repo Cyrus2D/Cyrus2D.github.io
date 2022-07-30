@@ -12,9 +12,11 @@ address: Institute for Big Data Analytics , 6050 University Ave, Halifax, NS, B3
 copyright: Copyright &copy;  2020 Designed by [Themefisher](https://themefisher.com) # & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-  - { name: About, link: "/about" }
+  - { name: Members, link: "/members"}
+  - { name: Publications, link: "/publications"}
+  - { name: Projects, link: "/projects" }
   - { name: News, link: "/news" }
-  - { name: Portfolio, link: "/portfolio" }
+  - { name: About, link: "/about" }
   # - { name: Contact, link: "/contact" }
 
 #-------------------------------
@@ -54,79 +56,104 @@ blurb-btn-name: know more
 
 # About Page
 
-# Work Process Section
-work-process:
-  - title: "Research and Plan"
-    icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+# # Work Process Section
+# work-process:
+#   - title: "Research and Plan"
+#     icon: "assets/images/icons/plan.png"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-  - title: "Design and Develop"
-    icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   - title: "Design and Develop"
+#     icon: "assets/images/icons/design.png"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-  - title: "Deliver"
-    icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   - title: "Deliver"
+#     icon: "assets/images/icons/print.png"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
+publications:
+  - title: "CYRUS Soccer Simulation 2D Team Description Paper 2022"
+    authors: "Nader Zare, Arad Firouzkouhi, Omid Amini, Mahtab Sarvmaili, Aref Sayareh, Saba Ramezani Rad, Stan Matwin, Amilcar Soares"
+    abstract: ""
+    publisher: "Team Description Paper, Soccer Simulation 2D League, RoboCup 2022"
+    link: ""
+    date: "2022"
+  - title: "Engineering Features to Improve Pass Prediction in Soccer Simulation 2D Games"
+    authors: "Nader Zare, Mahtab Sarvmaili, Aref Sayareh, Omid Amini, Stan Matwin, and Amilcar Soares"
+    abstract: "Soccer Simulation 2D (SS2D) is a simulation of a real soccer game in two dimensions. In soccer, passing behavior is an essential action for keeping the ball in possession of our team and creating goal opportunities. Similarly, for SS2D, predicting the passing behaviors of both opponents and our teammates helps manage resources and score more goals. Therefore, in this research, we have tried to address the modeling of passing behavior of soccer 2D players using Deep Neural Networks (DNN) and Random Forest (RF). We propose an embedded data extraction module that can record the decision-making of agents in an online format. Afterward, we apply four data sorting techniques for training data preparation. After, we evaluate the trained models’ performance playing against 6 top teams of RoboCup 2019 that have distinctive playing strategies. Finally, we examine the importance of different feature groups on the prediction of a passing strategy. All results in each step of this work prove our suggested methodology’s effectiveness and improve the performance of the pass prediction in Soccer Simulation 2D games ranging from 5%(eg, playing against the same team) to 10%(eg, playing against Robocup top teams)."
+    publisher: "Symposium, RoboCup 2021: Robot World Cup XXIV"
+    link: "https://books.google.com/books?hl=en&lr=&id=mlZlEAAAQBAJ&oi=fnd&pg=PA140&dq=info:6UkehR1CuLkJ:scholar.google.com&ots=t1oHDBULgu&sig=tO3pnN9A74HBrtdU9ryaNy2Zpi0"
+    date: "2021"
 # Our Team Section
 team:
+  - title: "Prof. Stan Matwin"
+    image: "assets/images/team/matwin.png"
+    designation: "Supervisor"
+    web: "https://web.cs.dal.ca/~stan/"
+  
+  - title: "Dr. Amilcar Soares"
+    image: "assets/images/team/amilcar.png"
+    designation: "Supervisor"
+    web: "https://web.cs.dal.ca/~soares/"
+  
   - title: "Nader Zare"
     image: "assets/images/team/member-1.png"
-    designation: "Team #1"
+    designation: "Team Leader"
+    linkedin: "https://www.linkedin.com/in/nader-zare/?originalSubdomain=ca"
+    git: "https://github.com/naderzare"
 
   - title: "Omid Amini"
     image: "assets/images/team/member-2.png"
-    designation: "Team #1"
+    designation: "Team Member"
+    link: ""
 
   - title: "Aref Sayareh"
     image: "assets/images/team/member-3.png"
-    designation: "Team #1"
+    designation: "Team Member"
+    link: ""
 
-  - title: "Jack Schenziwe"
-    image: "assets/images/team/member-4.png"
-    designation: "Team #2"
+  - title: "Arad Firouzkouhi"
+    image: ""
+    designation: "Team Member"
+    link: ""
 
-  - title: "Julias Carlie"
-    image: "assets/images/team/member-5.png"
-    designation: "Team #2"
-
-  - title: "John Doe"
-    image: "assets/images/team/member-6.png"
-    designation: "Team #2"
-
+  - title: "Mahtab Sarvmaili"
+    image: "assets/images/team/mahtab.jpg"
+    designation: "Team Member"
+    link: ""
+  
 #-------------------------------
 # Skills Section
 
-skills-title: Skills
-skills:
-  - { name: Code, color: "#fdb157", value: "90%" }
-  - { name: Wen App, color: "#9473e6", value: "60%" }
-  - { name: SS2D, color: "#bdecf6", value: "80%" }
-  - { name: something else, color: "#ffbcaa", value: "70%" }
+# skills-title: Skills
+# skills:
+#   - { name: Code, color: "#fdb157", value: "90%" }
+#   - { name: Wen App, color: "#9473e6", value: "60%" }
+#   - { name: SS2D, color: "#bdecf6", value: "80%" }
+#   - { name: something else, color: "#ffbcaa", value: "70%" }
 
 #-------------------------------
 # Exprerience Section
 
-experience-title: Experience
-experience:
-  - {
-      name: Second JapanOpen 2021,
-      icon: "icon-1.png",
-      date: "mar 2021",
-      organization: "JapanOpen",
-    }
-  - {
-      name: Champ RoboCup 2021,
-      icon: "icon-2.png",
-      date: "Jul 2021 - Jul 2022",
-      organization: "RoboCup",
-    }
-  - {
-      name: Second RoboCup 2022,
-      icon: "icon-3.png",
-      date: "Jul 2022 - Present",
-      organization: "RoboCup",
-    }
+# experience-title: Experience
+# experience:
+#   - {
+#       name: Second JapanOpen 2021,
+#       icon: "icon-1.png",
+#       date: "mar 2021",
+#       organization: "JapanOpen",
+#     }
+#   - {
+#       name: Champ RoboCup 2021,
+#       icon: "icon-2.png",
+#       date: "Jul 2021 - Jul 2022",
+#       organization: "RoboCup",
+#     }
+#   - {
+#       name: Second RoboCup 2022,
+#       icon: "icon-3.png",
+#       date: "Jul 2022 - Present",
+#       organization: "RoboCup",
+#     }
 
 #-------------------------------
 # Education Section
@@ -136,17 +163,20 @@ education:
   - {
       name: 2nd place - JapanOpen 2021,
       date: "2021",
-      organization: "JPO",
+      organization: "Japan",
+      img: "/assets/images/achive/second.png",
     }
   - {
       name: 1st place - RoboCup 2021,
-      date: "2004",
+      date: "2021",
       organization: "WorldWide Online",
+      img: "/assets/images/achive/first.png",
     }
   - {
       name: 2nd place - RoboCup 2022,
       date: "2022",
       organization: "Thailand",
+      img: "/assets/images/achive/second.png",
     }
 # - {
 #     name: st place - RoboCup 2023,
@@ -157,121 +187,101 @@ education:
 #-------------------------------
 # Services Section
 
-services-title: Services
-services:
-  - {
-      name: Code Design,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
-  - {
-      name: Normal Design,
-      icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: true, # Add true to select section
-    }
-  - {
-      name: Super Design,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
+# services-title: Services
+# services:
+#   - {
+#       name: Code Design,
+#       icon: ti-palette,
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#       active: ,# Add true to select section
+#     }
+#   - {
+#       name: Normal Design,
+#       icon: ti-vector,
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#       active: true, # Add true to select section
+#     }
+#   - {
+#       name: Super Design,
+#       icon: ti-panel,
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#       active: ,# Add true to select section
+#     }
 
 #-------------------------------
 # Portfolio (Section and Page)
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/cbase.png"
+    url: "https://github.com/Cyrus2D/Cyrus2DBase"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/pyrus.png"
+    url: "https://github.com/Cyrus2D/Pyrus-SS2D-Base"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/cpp.png"
+    url: "https://github.com/Cyrus2D/CppDNN"
 
-  - image: "assets/images/portfolio/item-4.png"
-    url: "#"
+  # - image: "assets/images/portfolio/item-4.png"
+  #   url: "#"
 
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
+  # - image: "assets/images/portfolio/item-5.png"
+  #   url: "#"
 
 # Portfolio Page
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+  - { title: "C++", type: "cpp" }
+  - { title: "PYTHON", type: "python" }
+  - { title: "AI", type: "ai" }
 
 portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/cbase.png"
+    url: "https://github.com/Cyrus2D/Cyrus2DBase"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
+      - type: "cpp"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/pyrus.png"
+    url: "https://github.com/Cyrus2D/Pyrus-SS2D-Base"
     portfolio-type:
-      - type: "branding"
+      - type: "python"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/cpp.png"
+    url: "https://github.com/Cyrus2D/CppDNN"
     portfolio-type:
-      - type: "illustration"
+      - type: "cpp"
+      - type: "ai"
 
-  - image: "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
 
 #-------------------------------
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Engineering Features to Improve Pass Prediction in Soccer Simulation 2D Games"
+    # image: "assets/images/testimonial/client-1.png"
+    designation: "RoboCup 2021: Robot World Cup XXIV"
+    content: "Soccer Simulation 2D (SS2D) is a simulation of a real soccer game in two dimensions. In soccer, passing behavior is an essential action for keeping the ball in possession of our team and creating goal opportunities. Similarly, for SS2D, predicting the passing behaviors of both opponents and our teammates helps manage resources and score more goals. Therefore, in this research, we have tried to address the modeling of passing behavior of soccer 2D players using Deep Neural Networks (DNN) and Random Forest (RF). We propose an embedded data extraction module that can record the decision-making of agents in an online format. Afterward, we apply four data sorting techniques for training data preparation. After, we evaluate the trained models’ performance playing against 6 top teams of RoboCup 2019 that have distinctive playing strategies. Finally, we examine the importance of different feature groups on the prediction of a passing strategy. All results in each step of this work prove our suggested methodology’s effectiveness and improve the performance of the pass prediction in Soccer Simulation 2D games ranging from 5%(eg, playing against the same team) to 10%(eg, playing against Robocup top teams)."
+    link: "https://books.google.com/books?hl=en&lr=&id=mlZlEAAAQBAJ&oi=fnd&pg=PA140&dq=info:6UkehR1CuLkJ:scholar.google.com&ots=t1oHDzURau&sig=-kI2EXdLewAGaQBZQSUQIcFZqkY"
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Improving Dribbling, Passing, and Marking Actions in Soccer Simulation 2D Games Using Machine Learning"
+    # image: "assets/images/testimonial/client-1.png"
+    designation: "RoboCup 2021: Robot World Cup XXIV"
+    content: "The RoboCup competition was started in 1997, and is known as the oldest RoboCup league. The RoboCup 2D Soccer Simulation League is a stochastic, partially observable soccer environment in which 24 autonomous agents play on two opposing teams. In this paper, we detail the main strategies and functionalities of CYRUS, the RoboCup 2021 2D Soccer Simulation League champions. The new functionalities presented and discussed in this work are (i) Multi Action Dribble,(ii) Pass Prediction and (iii) Marking Decision. The Multi Action Dribbling strategy enabled CYRUS to succeed more often and to be safer when dribbling actions were performed during a game. The Pass Prediction enhanced our gameplay by predicting our teammate’s passing behavior, anticipating and making our agents collaborate better towards scoring goals. Finally, the Marking Decision addressed the multi-agent matching problem to improve CYRUS defensive strategy by finding an optimal solution to mark opponents’ players."
+    link: "https://books.google.com/books?hl=en&lr=&id=mlZlEAAAQBAJ&oi=fnd&pg=PA340&dq=info:lA2s2vS02dAJ:scholar.google.com&ots=t1oHDzURav&sig=nB5iNkMMjpOaF5bO1LqSGAK-_Wo"
 
-  - name: "Jesica Gomez"
+  - name: "CYRUS Soccer Simulation 2D Team Description Paper 2022"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    designation: "RoboCup 2022: Team Description Paper"
+    content: "Soccer Simulation 2D League is one of the major leagues
+      of RoboCup competitions. In a Soccer Simulation 2D (SS2D) game, two
+      teams of 11 players and one coach compete against each other. The play-
+      ers are only allowed to communicate with the server that is called Soccer
+      Simulation Server. This paper introduces the previous and current re-
+      search of the CYRUS soccer simulation team, the champion of RoboCup
+      2021. We will present our idea about improving Unmarking Decisioning
+      and Positioning by using Pass Prediction Deep Neural Network. Based
+      on our experimental results, this idea proven to be effective on increasing
+      the winning rate of Cyrus against opponents."
+    link: "https://arxiv.org/abs/2205.10953"
 
 #-------------------------------
 # Client Slider Section
