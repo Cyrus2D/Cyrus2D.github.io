@@ -4,18 +4,19 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title text-white mb-5">Testimonials</h2>
+        <h2 class="section-title text-white mb-5">Publications</h2>
       </div>
       <div class="col-lg-10 mx-auto testimonial-slider">
         {% for testimonial-item in site.data.settings.testimonial-items %}
         <!-- slider-item -->
         <div class="text-center testimonial-content">
-          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
-          <p class="text-white mb-4">{{ testimonial-item.content }}</p>
-          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{ testimonial-item.image | relative_url }}"
-            alt="{{ testimonial-item.name }}">
+          <!-- <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i> -->
           <h4 class="text-white">{{ testimonial-item.name }}</h4>
           <h6 class="text-light mb-4">{{ testimonial-item.designation }}</h6>
+          <p class="text-white mb-4">{{ testimonial-item.content }}</p>
+          <!-- <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{ testimonial-item.image | relative_url }}"
+            alt="{{ testimonial-item.name }}"> -->
+            <a class="btn btn-light btn-sm" href="{{ testimonial-item.link }}" style="margin-bottom: 20px;">view paper</a>
         </div>
         {% endfor %}
       </div>

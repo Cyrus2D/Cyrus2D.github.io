@@ -1,11 +1,14 @@
 <head>
   <meta charset="utf-8">
+  
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="{%if page.description%}{{page.description}}{%else%}{{site.data.settings.description}}{%endif%}">
-    
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
   {% if site.author %}
   <meta name="author" content="{{ . }}">
   {% endif %}
@@ -26,5 +29,6 @@
   {% if site.data.settings.google-analytics %}
     {% include google-analytics.html %}
   {% endif %}
+
 
 </head>

@@ -5,7 +5,8 @@
       <div class="col-12 text-center">
         <h2 class="section-title">News</h2>
       </div>
-      {% for post in site.posts offset:0 limit:3 %}
+      {% assign sorted = site.posts | sort: 'date' | reverse %}
+      {% for post in sorted offset:0 limit:3 %}
       {% include post.html %}
       {% endfor %}
     </div>
