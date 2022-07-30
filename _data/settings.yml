@@ -120,7 +120,9 @@ team:
     image: "assets/images/team/mahtab.jpg"
     designation: "Team Member"
     link: ""
-  
+
+about-team:
+
 #-------------------------------
 # Skills Section
 
