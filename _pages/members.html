@@ -1,0 +1,60 @@
+---
+layout: page
+title: Members
+---
+
+{% if site.data.settings.team %}
+<!-- team -->
+<section class="section bg-cover" data-background="{{ site.baseurl }}/assets/images/backgrounds/team-bg.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Our Team</h2>
+      </div>
+      {% for team-member in site.data.settings.team %}
+      <div class="col-md-4 col-sm-6 mb-4 mb-md-0" >
+        <div class="card text-center" style="margin-bottom: 10px;">
+          <figure class="member-box" style="height: 358px; width: 350px;position: relative;">
+            <ul class="social">
+              {% if team-member.web %}
+              <!-- <li>
+                <a href="{{ team-member.web }}" target="_blank" style="color: inherit;">
+                  <span class="material-icons md-48">language</span>
+                </a>
+              </li> -->
+              <li>
+                <a href="{{ team-member.web }}" target="_blank" style="color: inherit;">
+                  <img src="/assets/images/icons/web2.png" style="width: 45px;color: white;">
+                </a>
+              </li>
+              {% endif %}
+              {% if team-member.git %}
+              <li>
+                <a href="{{ team-member.git }}" target="_blank" style="color: inherit;">
+                  <img src="/assets/images/icons/git.png" style="width: 45px;color: white;">
+                </a>
+              </li>
+              {% endif %}
+              {% if team-member.linkedin %}
+              <li>
+                <a href="{{ team-member.linkedin }}" target="_blank" style="color: inherit;">
+                  <img src="/assets/images/icons/in.png" style="width: 45px;color: white;">
+                </a>
+              </li>
+              {% endif %}
+            </ul>
+            <img src="{{ team-member.image | relative_url }}" class="card-img-top" style="height: 358px; width: 350px;object-fit: fill;">
+          </figure>
+          
+          <div class="card-body">
+            <h4 class="card-title">{{ team-member.title }}</h4>
+            <p class="text-light font-secondary">{{ team-member.designation }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /team -->
+{% endif %}

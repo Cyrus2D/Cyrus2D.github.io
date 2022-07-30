@@ -1,0 +1,34 @@
+---
+layout: page
+title: Publications
+---
+<!-- portfolio -->
+<section class="section">
+  <div class="container">
+      <ul>
+        {% for item in site.data.settings.publications %}
+        <li>
+          <h4>{{ item.title }} <a href="{{item.link}}">[link]</a></h4>
+          <h5 style="color: grey;">{{ item.authors }}</h5>
+          <h6 style="color: grey;"> {{item.publisher}} ({{ item.date}})</h6>
+          <p>{{ item.abstract }}</p>
+          <br>
+        </li>
+        {% endfor %}
+      </ul>
+  </div>
+</section>
+<!-- /portfolio -->
+
+<!-- clients -->
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{ site.data.settings.client-title }}</h2>
+      </div>
+    </div>
+    {% include client-slider.html %}
+  </div>
+</section>
+<!-- /clients -->
