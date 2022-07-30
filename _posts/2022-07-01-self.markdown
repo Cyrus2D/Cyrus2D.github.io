@@ -1,0 +1,12 @@
+---
+layout: post
+title:  CYRUS won the second place in RoboCup 2022
+date:   2022-07-01 11:05:55 +0300
+image:  https://2022.robocup.org/assets/img/logo2.png
+author: Nader Zare
+tags:   RoboCup AI
+---
+
+CYRUS soccer simulation 2D team won the second place in RoboCup 2022.
+
+> Read more [Here](https://docs.google.com/document/d/1mP4SHTXTgdkruqdR7llE3jNgcOpjlB1-N-zHoGmsx0I/edit#)

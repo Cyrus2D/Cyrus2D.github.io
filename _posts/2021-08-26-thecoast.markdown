@@ -1,0 +1,12 @@
+---
+layout: post
+title:  Local robotics team snags gold at world’s largest AI soccer competition
+date:   2017-05-26 12:05:55 +0300
+image:  https://media2.fdncms.com/thecoast/imager/u/magnum/26958534/robot.png
+author: uixgeek
+tags:   UX design
+---
+
+For the past eight years, CYRUS has dreamt about winning first place at the international RoboCup. It’s the world’s largest artificial intelligence soccer competition, and thousands of participants from dozens of countries vie for gold medals each year. But for the past few competitions, the artificial intelligence robotics team based at Dalhousie University had fallen short of that top spot. CYRUS has always competed in the two-dimensional soccer simulation category; the team reached fourth place while competing in the 2017 RoboCup in Japan, won second place in 2018 in Montreal but dipped back down to third place while competing in Australia in 2019.
+
+> Read more [Here](https://www.thecoast.ca/halifax/local-robotics-team-snags-gold-at-worlds-largest-ai-soccer-competition/Content?oid=26958526)

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  Dalhousie University Robotics Team Becomes First Canadian Squad to Win 2021 National Robocup
+date:   2021-07-28 11:05:55 +0300
+image:  https://s.yimg.com/ny/api/res/1.2/ouywkvxASuYUKKeEyPYf_g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTQ0NDtjZj13ZWJw/https://s.yimg.com/uu/api/res/1.2/u86GzBQAq8ORYTdnOTxLzw--~B/aD0yNTI7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/cnwgroup.com/ece860a16c2908e58f124cd107c8bdac
+author: https://ca.style.yahoo.com/ http://www.newswire.ca/en/releases/archive/July2021/28/c4311.html
+tags:   RoboCup AI
+---
+
+For the past eight years, CYRUS has dreamt about winning first place at the international RoboCup. It’s the world’s largest artificial intelligence soccer competition, and thousands of participants from dozens of countries vie for gold medals each year. But for the past few competitions, the artificial intelligence robotics team based at Dalhousie University had fallen short of that top spot. CYRUS has always competed in the two-dimensional soccer simulation category; the team reached fourth place while competing in the 2017 RoboCup in Japan, won second place in 2018 in Montreal but dipped back down to third place while competing in Australia in 2019.
+
+> Read more [Here](https://ca.style.yahoo.com/dalhousie-university-robotics-team-becomes-130000020.html)
