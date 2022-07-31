@@ -9,7 +9,7 @@ description: this is Cyrus2D website
 email: contact@cyrus2d.com
 phone: +100 1000 1000 
 address: Institute for Big Data Analytics , 6050 University Ave, Halifax, NS, B3H 4R2, Canada
-copyright: Copyright &copy;  2020 Designed by [Themefisher](https://themefisher.com) # & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+copyright: Copyright &copy; # 2020 Designed by [Themefisher](https://themefisher.com) # & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
   - { name: Members, link: "/members"}
@@ -83,44 +83,57 @@ publications:
     publisher: "Symposium, RoboCup 2021: Robot World Cup XXIV"
     link: "https://books.google.com/books?hl=en&lr=&id=mlZlEAAAQBAJ&oi=fnd&pg=PA140&dq=info:6UkehR1CuLkJ:scholar.google.com&ots=t1oHDBULgu&sig=tO3pnN9A74HBrtdU9ryaNy2Zpi0"
     date: "2021"
-# Our Team Section
+
+# Our Team 
+
+# this model is wrong
+# plese use this one insted for each member - mroa
+#   - title: "name"
+#     image: "assets/images/team/member-name.jpg"
+#     designation: "role"
+#     social:
+#       - { icon: "ti-facebook", link: "#" }
+#       - { icon: "ti-instagram", link: "#" }
+#       - { icon: "ti-website", link: "#" }
+#       - { icon: "ti-github", link: "#" }
+#       - { icon: "ti-twitter", link: "#" }
+
 team:
   - title: "Prof. Stan Matwin"
-    image: "assets/images/team/matwin.png"
+    image: "assets/images/team/member-matwin.jpg"
     designation: "Supervisor"
     web: "https://web.cs.dal.ca/~stan/"
   
   - title: "Dr. Amilcar Soares"
-    image: "assets/images/team/amilcar.png"
+    image: "assets/images/team/member-amilcar.jpg"
     designation: "Supervisor"
     web: "https://web.cs.dal.ca/~soares/"
   
   - title: "Nader Zare"
-    image: "assets/images/team/member-1.png"
+    image: "assets/images/team/member-nader.jpg"
     designation: "Team Leader"
     linkedin: "https://www.linkedin.com/in/nader-zare/?originalSubdomain=ca"
     git: "https://github.com/naderzare"
 
   - title: "Omid Amini"
-    image: "assets/images/team/member-2.png"
+    image: "assets/images/team/member-omid.jpg"
     designation: "Team Member"
     link: ""
 
   - title: "Aref Sayareh"
-    image: "assets/images/team/member-3.png"
+    image: "assets/images/team/member-aref.jpg"
     designation: "Team Member"
     link: ""
 
   - title: "Arad Firouzkouhi"
-    image: ""
+    image: "assets/images/team/member-arad.jpg"
     designation: "Team Member"
     link: ""
 
   - title: "Mahtab Sarvmaili"
-    image: "assets/images/team/mahtab.jpg"
+    image: "assets/images/team/member-mahtab.jpg"
     designation: "Team Member"
     link: ""
-
 about-team:
 
 #-------------------------------
@@ -181,9 +194,10 @@ education:
       img: "/assets/images/achive/second.png",
     }
 # - {
-#     name: st place - RoboCup 2023,
+#     name: 1st place - RoboCup 2023,
 #     date: "2023",
 #     organization: "France",
+#     img: "/assets/images/achive/first.png",
 #   }
 
 #-------------------------------
