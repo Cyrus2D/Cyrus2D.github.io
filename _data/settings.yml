@@ -102,18 +102,21 @@ team:
   - title: "Prof. Stan Matwin"
     image: "assets/images/team/member-matwin.jpg"
     designation: "Supervisor"
-    web: "https://web.cs.dal.ca/~stan/"
+    social:
+      - {icon: "ti-basketball" ,  link: "https://web.cs.dal.ca/~stan/"}
   
   - title: "Dr. Amilcar Soares"
     image: "assets/images/team/member-amilcar.jpg"
     designation: "Supervisor"
-    web: "https://web.cs.dal.ca/~soares/"
+    social:
+      - {icon: "ti-basketball" ,  link: "https://web.cs.dal.ca/~soares/"}
   
   - title: "Nader Zare"
     image: "assets/images/team/member-nader.jpg"
     designation: "Team Leader"
-    linkedin: "https://www.linkedin.com/in/nader-zare/?originalSubdomain=ca"
-    git: "https://github.com/naderzare"
+    social:
+      - {icon: "ti-linkedin" ,  link: "https://www.linkedin.com/in/nader-zare/?originalSubdomain=ca"}
+      - {icon: "ti-github" ,  link: "https://github.com/naderzare"}
 
   - title: "Omid Amini"
     image: "assets/images/team/member-omid.jpg"
