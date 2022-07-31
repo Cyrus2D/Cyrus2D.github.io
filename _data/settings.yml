@@ -40,11 +40,11 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 hero:
   hero-title: Cyrus <br> 2D Soccer <br> Simulation <br> Team
 
-social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+# social:
+#   - { icon: "ti-facebook", link: "#" }
+#   - { icon: "ti-instagram", link: "#" }
+#   - { icon: "ti-dribbble", link: "#" }
+#   - { icon: "ti-twitter", link: "#" }
 
 #-------------------------------
 # About (Section and Page)
@@ -276,19 +276,19 @@ portfolio-items:
 
 testimonial-items:
   - name: "Engineering Features to Improve Pass Prediction in Soccer Simulation 2D Games"
-    # image: "assets/images/testimonial/client-1.png"
+    # image: "assets/images/"
     designation: "RoboCup 2021: Robot World Cup XXIV"
     content: "Soccer Simulation 2D (SS2D) is a simulation of a real soccer game in two dimensions. In soccer, passing behavior is an essential action for keeping the ball in possession of our team and creating goal opportunities. Similarly, for SS2D, predicting the passing behaviors of both opponents and our teammates helps manage resources and score more goals. Therefore, in this research, we have tried to address the modeling of passing behavior of soccer 2D players using Deep Neural Networks (DNN) and Random Forest (RF). We propose an embedded data extraction module that can record the decision-making of agents in an online format. Afterward, we apply four data sorting techniques for training data preparation. After, we evaluate the trained models’ performance playing against 6 top teams of RoboCup 2019 that have distinctive playing strategies. Finally, we examine the importance of different feature groups on the prediction of a passing strategy. All results in each step of this work prove our suggested methodology’s effectiveness and improve the performance of the pass prediction in Soccer Simulation 2D games ranging from 5%(eg, playing against the same team) to 10%(eg, playing against Robocup top teams)."
     link: "https://books.google.com/books?hl=en&lr=&id=mlZlEAAAQBAJ&oi=fnd&pg=PA140&dq=info:6UkehR1CuLkJ:scholar.google.com&ots=t1oHDzURau&sig=-kI2EXdLewAGaQBZQSUQIcFZqkY"
 
   - name: "Improving Dribbling, Passing, and Marking Actions in Soccer Simulation 2D Games Using Machine Learning"
-    # image: "assets/images/testimonial/client-1.png"
+    # image: "assets/images/"
     designation: "RoboCup 2021: Robot World Cup XXIV"
     content: "The RoboCup competition was started in 1997, and is known as the oldest RoboCup league. The RoboCup 2D Soccer Simulation League is a stochastic, partially observable soccer environment in which 24 autonomous agents play on two opposing teams. In this paper, we detail the main strategies and functionalities of CYRUS, the RoboCup 2021 2D Soccer Simulation League champions. The new functionalities presented and discussed in this work are (i) Multi Action Dribble,(ii) Pass Prediction and (iii) Marking Decision. The Multi Action Dribbling strategy enabled CYRUS to succeed more often and to be safer when dribbling actions were performed during a game. The Pass Prediction enhanced our gameplay by predicting our teammate’s passing behavior, anticipating and making our agents collaborate better towards scoring goals. Finally, the Marking Decision addressed the multi-agent matching problem to improve CYRUS defensive strategy by finding an optimal solution to mark opponents’ players."
     link: "https://books.google.com/books?hl=en&lr=&id=mlZlEAAAQBAJ&oi=fnd&pg=PA340&dq=info:lA2s2vS02dAJ:scholar.google.com&ots=t1oHDzURav&sig=nB5iNkMMjpOaF5bO1LqSGAK-_Wo"
 
   - name: "CYRUS Soccer Simulation 2D Team Description Paper 2022"
-    image: "assets/images/testimonial/client-1.png"
+    # image: "assets/images/"
     designation: "RoboCup 2022: Team Description Paper"
     content: "Soccer Simulation 2D League is one of the major leagues
       of RoboCup competitions. In a Soccer Simulation 2D (SS2D) game, two
@@ -307,35 +307,33 @@ testimonial-items:
 
 client-title: Our Sponsors
 client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-6.png"
+  - logo: "assets/images/clients-logo/client-logo-9.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-6.png"
+  - logo: "assets/images/clients-logo/client-logo-7.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-6.png"
+  - logo: "assets/images/clients-logo/client-logo-8.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-6.png"
+  - logo: "assets/images/clients-logo/client-logo-9.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-6.png"
+  - logo: "assets/images/clients-logo/client-logo-7.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-6.png"
+  - logo: "assets/images/clients-logo/client-logo-8.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-6.png"
+  - logo: "assets/images/clients-logo/client-logo-9.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-6.png"
+  - logo: "assets/images/clients-logo/client-logo-7.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-6.png"
+  - logo: "assets/images/clients-logo/client-logo-8.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-6.png"
-    url: "#"
 
 #-------------------------------
 # Contact Section
