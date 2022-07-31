@@ -2,7 +2,7 @@
 layout: post
 title:  Dalhousie University’s AI robotics team wins gold in RoboCup
 date:   2021-08-12 10:05:55 +0300
-image:  https://i.itworldcanada.com/wp-content/uploads/2021/08/GettyImages-637794534-696x348.jpg
+image:  /assets/images/news/post1.jpg
 author: www.itworldcanada.com
 tags:   ROBOCUP AI CANADA
 ---
@@ -15,7 +15,8 @@ According to Sarvmaili, the RoboCup competition is divided into two leagues: the
 
 “The software league is more like a simulation of these robotic competitions,” she said. “For example, we have the rescue league that are like these firefighters, kind of agents. Or we have the soccer league which we are competing in.”
 
-![](https://i.itworldcanada.com/wp-content/uploads/2021/08/IMG_2057-1-696x928.jpg)
+<!-- ![nader&mahtab](https://i.itworldcanada.com/wp-content/uploads/2021/08/IMG_2057-1-696x928.jpg) -->
+
+<img src="https://i.itworldcanada.com/wp-content/uploads/2021/08/IMG_2057-1-696x928.jpg" class="img-fluid rounded float-left mr-5 mb-4" alt="nader-mahtab">
 
 > Read more [Here](https://www.itworldcanada.com/article/dalhousie-universitys-ai-robotics-team-wins-gold-in-robocup/456872)
-
