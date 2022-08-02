@@ -272,3 +272,24 @@ textarea.form-control{
   }
 }
 /* /card */
+
+.div-news article {
+  height: 100%;
+  .read-more{
+    margin-top: auto;
+    margin-right: auto;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-img-top{
+    height: 200px;
+  }
+  .card-text{
+    text-align: justify;
+  }
+  .card-title{
+    text-align: justify;
+  }
+}
