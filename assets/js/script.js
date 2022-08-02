@@ -31,6 +31,21 @@
     });
   });
 
+  var test_contents = $(".testimonial .test-content");
+  console.log(test_contents);
+  for (let test_content of test_contents){
+    var p=$(test_content).find("p");
+    var divh=$(test_content).height();
+    console.log(test_content);
+    console.log(p);
+    console.log(divh);
+    while ($(p).outerHeight()>divh) {
+        $(p).text(function (index, text) {
+            return text.replace(/\W*\s(\S)*$/, '...');
+        });
+    };
+  }
+
   /* ########################################### hero parallax ############################################## */
   // window.onload = function () {
   //   var parallaxBox = document.getElementById("parallax");

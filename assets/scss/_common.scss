@@ -293,3 +293,17 @@ textarea.form-control{
     text-align: justify;
   }
 }
+
+.testimonial {
+  .test-content {
+    height: 200px;
+    overflow: hidden;
+    text-align: justify;
+    padding: 0 20px;
+  }
+  h4{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
