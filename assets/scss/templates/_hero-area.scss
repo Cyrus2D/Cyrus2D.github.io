@@ -1,14 +1,12 @@
 .hero-area {
-  padding: 300px 0 200px;
-  position: relative;
   @include tablet {
-    padding: 250px 0 150px;
     overflow: hidden;
   }
-  h1{
-    position: relative;
-    z-index: 2;
-  }
+  background: url("/assets/images/illustrations/ss2d-bg-e.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 350px 0;
 }
 
 .layer {

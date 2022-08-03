@@ -1,3 +1,5 @@
+nav_toggle = true;
+
 (function ($) {
   "use strict";
 
@@ -30,6 +32,15 @@
       bottom: $(this).data("progress"),
     });
   });
+
+
+  document.getElementById("nav-btn").onclick = function() {
+    if (nav_toggle)
+      $(".navigation").addClass("bg-primary");
+    else
+      $(".navigation").removeClass("bg-primary");
+    nav_toggle = !nav_toggle;
+  };
 
   var test_contents = $(".testimonial .test-content");
   console.log(test_contents);
