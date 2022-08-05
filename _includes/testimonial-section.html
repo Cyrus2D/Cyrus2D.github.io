@@ -7,13 +7,13 @@
         <h2 class="section-title text-white mb-5">Publications</h2>
       </div>
       <div class="col-lg-10 mx-auto testimonial-slider">
-        {% for testimonial-item in site.data.settings.testimonial-items %}
+        {% for testimonial-item in site.data.settings.publications limit: 3%}
         <!-- slider-item -->
         <div class="text-center testimonial-content">
           <!-- <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i> -->
-          <h4 class="text-white">{{ testimonial-item.name }}</h4>
-          <h6 class="text-light mb-4">{{ testimonial-item.designation }}</h6>
-          <div class="text-white mb-4 test-content"><p>{{ testimonial-item.content }}</p></div>
+          <h4 class="text-white">{{ testimonial-item.title }}</h4>
+          <h6 class="text-light mb-4">{{ testimonial-item.date }}</h6>
+          <div class="text-white mb-4 test-content"><p>{{ testimonial-item.abstract }}</p></div>
           <!-- <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{ testimonial-item.image | relative_url }}"
             alt="{{ testimonial-item.name }}"> -->
             <a class="btn btn-light btn-sm" href="{{ testimonial-item.link }}" style="margin-bottom: 20px;">view paper</a>

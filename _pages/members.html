@@ -14,12 +14,19 @@ title: Members
       {% for team-member in site.data.settings.team %}
       <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
         <div class="card text-center">
-          <img src="{{ team-member.image | relative_url }}" class="card-img-top">
-          <ul class="list-group-horizontal mt-3 zindex-1">
-            {% for social in team-member.social %}
-            <li class="list-group-item"><a class="text-black" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
-            {% endfor %}
-          </ul>
+          <div class="social">
+            <img src="{{ team-member.image | relative_url }}" class="card-img-top">
+            <div class="overlay"></div>
+            <ul class="list-group-horizontal mt-3 zindex-1">
+              {% for social in team-member.social %}
+              <li class="list-group-item">
+                <a class="text-black" href="{{ social.link }}">
+                  <i class="{{ social.icon }}"></i>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
           <div class="card-body">
             <h4 class="card-title">{{ team-member.title }}</h4>
             <p class="text-light font-secondary">{{ team-member.designation }}</p>
