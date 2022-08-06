@@ -1,0 +1,36 @@
+---
+layout: page
+title: Competitions
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Competitions Timeline</h3>
+                    <div id="content">
+                        <ul class="timeline">
+                            {% for years in site.data.settings.competitions %}
+
+                            <li class="event" data-date="{{ years.year }}" style="padding: 90px 0 0 0;">
+                                {% for league in years.leagues %}
+
+                                <ul class="inside-timeline">
+                                    <li class="event" data-date="{{ league.date }}">
+                                        <h4>{{ league.name }}</h4>
+                                        <p>Rank: {{ league.rank }}</p>
+                                    </li>
+                                </ul>
+
+                                {% endfor %}
+                            </li>
+
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

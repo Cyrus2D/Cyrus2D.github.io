@@ -17,6 +17,7 @@ menu:
   - { name: Projects, link: "/projects" }
   - { name: News, link: "/news" }
   - { name: About, link: "/about" }
+  - { name: Competitions, link: "/competitions"}
   # - { name: Contact, link: "/contact" }
 
 #-------------------------------
@@ -334,6 +335,26 @@ client-slider-items:
   - logo: "assets/images/clients-logo/client-logo-8.png"
     url: "#"
 
+
+#-----------------
+# Competitions
+competitions:
+  - year: 2019
+    leagues:
+      - name: "RoboCup"
+        date: "June - 25"
+        rank: "1"
+      - name: "IranOpen"
+        date: "April - 26"
+        rank: "2"
+  - year: 2018
+    leagues:
+      - name: "RoboCup"
+        date: "June - 25"
+        rank: "1"
+      - name: "IranOpen"
+        date: "April - 26"
+        rank: "2"
 
 #-------------------------------
 # Contact Section
