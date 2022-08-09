@@ -344,33 +344,36 @@ competitions:
       - name: "RoboCup"
         date: "June"
         rank: "2"
-      - name: "IranOpen"
-        date: "May"
-        rank: "2"
+      # - name: "IranOpen"
+      #   date: "May"
+      #   rank: "2"
   - year: 2021
     leagues:
       - name: "RoboCup"
         date: "June"
         rank: "1"
-      - name: "IranOpen"
-        date: "May"
-        rank: "1"
+      # - name: "IranOpen"
+      #   date: "May"
+      #   rank: "1"
   - year: 2019
     leagues:
       - name: "RoboCup"
         date: "June"
         rank: "3"
-      - name: "IranOpen"
-        date: "May"
-        rank: "1"
+      # - name: "IranOpen"
+      #   date: "May"
+      #   rank: "1"
   - year: 2018
     leagues:
       - name: "RoboCup"
         date: "June"
         rank: "2"
-      - name: "IranOpen"
+      - name: "JapanOpen"
         date: "May"
-        rank: "1"
+        rank: "2"
+      # - name: "IranOpen"
+      #   date: "May"
+      #   rank: "1"
 
 #-------------------------------
 # Contact Section
