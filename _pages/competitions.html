@@ -14,17 +14,17 @@ title: Competitions
                             {% for years in site.data.settings.competitions %}
 
                             <li class="event" data-date="{{ years.year }}" style="padding: 90px 0 0 0;">
-                                {% for league in years.leagues %}
-
                                 <ul class="inside-timeline">
+
+                                    {% for league in years.leagues %}
                                     <li class="event" data-date="{{ league.date }}">
                                         <h4>{{ league.name }}</h4>
                                         <p>Rank: {{ league.rank }}</p>
                                     </li>
-                                </ul>
-
                                 {% endfor %}
-                            </li>
+
+                            </ul>
+                        </li>
 
                             {% endfor %}
                         </ul>

@@ -339,22 +339,38 @@ client-slider-items:
 #-----------------
 # Competitions
 competitions:
+  - year: 2022
+    leagues:
+      - name: "RoboCup"
+        date: "June"
+        rank: "2"
+      - name: "IranOpen"
+        date: "May"
+        rank: "2"
+  - year: 2021
+    leagues:
+      - name: "RoboCup"
+        date: "June"
+        rank: "1"
+      - name: "IranOpen"
+        date: "May"
+        rank: "1"
   - year: 2019
     leagues:
       - name: "RoboCup"
-        date: "June - 25"
-        rank: "1"
+        date: "June"
+        rank: "3"
       - name: "IranOpen"
-        date: "April - 26"
-        rank: "2"
+        date: "May"
+        rank: "1"
   - year: 2018
     leagues:
       - name: "RoboCup"
-        date: "June - 25"
-        rank: "1"
-      - name: "IranOpen"
-        date: "April - 26"
+        date: "June"
         rank: "2"
+      - name: "IranOpen"
+        date: "May"
+        rank: "1"
 
 #-------------------------------
 # Contact Section

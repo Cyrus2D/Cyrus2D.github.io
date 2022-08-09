@@ -38,7 +38,7 @@
 }
 
 .timeline .event {
-    border-bottom: 1px dashed $primary-color;
+    // border-bottom: 1px dashed $primary-color;
     padding-bottom: 25px;
     margin-bottom: 25px;
     position: relative;
@@ -102,7 +102,7 @@
 
 @media (max-width: 767px) {
     .timeline .event:after {
-        left: -31.8px;
+        left: -34.8px;
     }
 }
 
@@ -125,7 +125,13 @@
     left: 0;
     right: -55.8px;
 }
-
+.timeline .event{
+    margin-bottom: 70px;
+}
+.inside-timeline .event{
+    padding: 0 0;
+    margin: 0 0;
+}
 .inside-timeline .event:after {
     -webkit-box-shadow: 0 0 0 3px $primary-color;
     box-shadow: 0 0 0 3px $primary-color;
@@ -136,4 +142,7 @@
     width: 9px;
     content: "";
     top: 5px;
+    @include tablet {
+        left: -30.8px;
+    }
 }
