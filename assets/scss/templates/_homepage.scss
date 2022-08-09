@@ -163,6 +163,9 @@
     position: absolute;
     right: 150px;
     top: 50px;
+    @include desktop{
+      display: none;
+    }
   }
 
   .bg-shape-3 {
@@ -175,7 +178,7 @@
     position: absolute;
     left: 100px;
     bottom: 200px;
-    @include tablet {
+    @include desktop {
       display: none;
     }
   }

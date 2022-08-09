@@ -311,3 +311,14 @@ textarea.form-control{
     overflow: hidden;
   }
 }
+
+.page-title-all{
+  @include tablet {
+    overflow: hidden;
+  }
+  background: url("/assets/images/illustrations/page-title.png") #1E5631;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 350px 0;
+}
